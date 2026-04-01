@@ -1,0 +1,112 @@
+.clear_btn {
+    width: 250px;
+    height: 30px;
+    background-color: rgb(213, 26, 26);
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.clear_btn:hover {
+    background-color: rgb(175, 19, 19);
+    cursor: pointer;
+}
+
+.title_afray {
+    margin-left: 100px;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.form_container {
+    margin-left: 100px;
+    display: flex;
+    gap: 0;
+    width: 80%;
+    bottom: 50px;
+}
+
+input {
+    flex: 1;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-right: none;
+    padding: 0 8px;
+    width: 80%;
+}
+
+.add_afray {
+    background-color: #1484da;
+    color: white;
+    border: none;
+}
+
+.add_afray:hover {
+    background-color: #0f6bb0;
+    cursor: pointer;
+}
+
+.todo-list {
+    margin-left: 60px;
+    width: 80%;
+    margin-top: 50px;
+}
+
+li {
+    border: 1px solid black;
+    height: 30px;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 1px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.todo-list li { 
+    position: relative; 
+    padding: 10px;
+    padding-right: 180px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    list-style: none;
+    min-height: 40px;
+}
+
+.delete-btn {
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.complete-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.complete-btn:hover {
+    background-color: #218838;
+}
